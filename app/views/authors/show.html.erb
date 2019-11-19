@@ -1,4 +1,4 @@
-<ul>
-  <li> <%= @author.name %></li>
-  <li> <%= @author.hometown %></li>
-</ul>
+<%= render 'author' %> 
+
+# <%= render partial: 'author', locals: {post_author: @author} %> 
+# I think you'd need to adjust the code to the line just above this.
